@@ -1,0 +1,33 @@
+*{
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 0;
+}
+
+nav ul li a{
+    color: #eaf0f3;
+}
+.nav-wrapper{
+    background-color:#044b44;
+}
+
+header{
+    background-image: url(../img/yu.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height:500px;
+}
+
+.page-title{
+    font-size:26px;
+    text-align: center;
+}
+
+
+/* ======----  Footer ----======*/
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #044b44;
+    color: white;
+  }
