@@ -1,0 +1,61 @@
+*{
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 0;
+}
+
+nav ul li a{
+    color: #eaf0f3;
+}
+.nav-wrapper{
+    background-color:#0c5630;
+}
+
+header{
+    background-image: url(../img/courses.jpg);
+background-size: cover;
+background-position: center;
+min-height:500px;
+}
+
+.container p{
+    align-items: center;
+}
+.page-title{
+    font-size:26px;
+    text-align: center;
+}
+
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;    
+}
+.content span{
+    background: #009688;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+/* ======----  Footer ----======*/
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #044b44;
+    color: white;
+  }
